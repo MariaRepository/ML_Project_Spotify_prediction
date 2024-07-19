@@ -114,7 +114,7 @@ with st.container():
         image_path_2 = "C:/Users/mfm-8/Online_Env/ML_Project_Spotify_prediction/Others/1.jpg"
 
         st.image(image_path, caption="Spotify babel Tower made with IA", width=700)
-        st.image(image_path_2, caption="Spotify babel Tower made with IA", width=700)
+        st.image(image_path_2, caption="All rights reserved 2024", width=700)
 
     # Main section for input values
     with col2:
@@ -162,6 +162,11 @@ with st.container():
                 st.markdown(f"<h2 style='text-align: center; font-size: 36px;'>🎹 Prediction: {prediction_rounded}<br><br>🎧 Trust yourself, we are more than a NUMBER<br><br>❤️</h2>", unsafe_allow_html=True)
             except Exception as e:
                 st.error(f"Error making prediction: {e}")
+            st.markdown("""
+                <div style='font-size: 24px; text-align: center; color: #f39c12;'>
+                    Wanna learn more about composition? Check our courses at <a href="http://www.compositionmaster.com" target="_blank">www.compositionmaster.com</a>
+                </div>
+            """, unsafe_allow_html=True)
 
 # Custom CSS for blue sliders and button
 st.markdown("""
